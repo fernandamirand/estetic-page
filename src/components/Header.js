@@ -33,7 +33,6 @@ function Header() {
 export default Header
 
 const Nav = styled.div`
-   
    display: flex;
    flex-direction: row;
    padding-top: 40px ;
