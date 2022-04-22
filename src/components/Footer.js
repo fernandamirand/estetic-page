@@ -6,20 +6,24 @@ function Footer() {
   return (
     <Container>
      <Main>
+
       <Content>
          <img src='/images/img-footer.png'/>
          <h1>Fulana de tal</h1>
       </Content>
         
         <Text>
-            Graduada em lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            <h2>Graduada em lorem ipsum lorem ipsum lorem ipsum lorem ipsum
         lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        Especialista em  lorem ipsum lorem ipsum 
-            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+        Especialista em  lorem ipsum lorem ipsum</h2>
+
+            <h2>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
         Especialista em  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem 
-        ipsum lorem ipsum lorem ipsum lorem ipsum
+        ipsum lorem ipsum lorem ipsum lorem ipsum</h2>
         </Text>
+
       </Main>
+      <Linha></Linha>
       <Rodape>
        <h3>Todos os direitos reservados</h3> 
        <p>2022©</p>
@@ -62,19 +66,25 @@ const Content = styled.div`
 `
 
 const Text = styled.h2`
-   font-size: 20px;
-   font-family: Habibi ;
+
+   font-size: 15px;
+   font-family: Habibi;
    text-align: justify;
    width: 40%;
+   padding-bottom: 80px;
+   text-indent: 4em;
    
 `
-
+const Linha = styled.div`
+     border: 1px solid #000;
+     
+`
 const Rodape = styled.div`
+   
    display: flex;
    flex-direction: column ;
    justify-content: center;
    align-items: center;
-   background-color: #ACA9A9;
    height: 70px;
    
    

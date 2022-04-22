@@ -19,9 +19,6 @@ function Header() {
                <Links href='/'>    
                <img src={item.imageLink}/>
                <span>{item.name}</span>    
-                {/* <a href=''>Pacotes</a>
-                <a href=''>Depoimentos</a>
-                <a href=''>Contatos</a> */}
             </Links>
            )}
            
@@ -112,11 +109,17 @@ const NavMenu = styled.div`
       height: 30px;
       margin-right: 10px;
 
+
    span {
       font-size:13px;
       letter-spacing: 1.42px;
       position: relative;
    }
+   }
+
+   &:hover{
+       transform: scale(1.05);
+      
    }
 
 

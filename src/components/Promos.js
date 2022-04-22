@@ -60,7 +60,13 @@ const Wrap = styled.div`
    img{
      width: 500px;
      height: 300px;
+     border-radius: 10px ;
      
+   }
+
+   &:hover{
+       transform: scale(1.05);
+      
    }
 
    p{

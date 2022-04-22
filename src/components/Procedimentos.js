@@ -78,15 +78,23 @@ const Title = styled.h1`
 
 const Wrap = styled.div`
    padding-top: 20px;
+   height: 350px ;
 
    img{
      width: 318px;
      height: 301px;
+     border-radius: 10px;
+   }
+
+   &:hover{
+       transform: scale(1.05);
+      
    }
 
    p{
      font-family: Habibi;
      font-size: 25px;
+     text-align: center ;
    }
    
    
